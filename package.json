@@ -6,6 +6,9 @@
   "bugs": {
     "url": "https://github.com/jackboberg/github-calendar/issues"
   },
+  "devDependencies": {
+    "tap": "~10.3.1"
+  },
   "homepage": "https://github.com/jackboberg/github-calendar#readme",
   "keywords": [
     "calendar",
