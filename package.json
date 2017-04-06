@@ -24,6 +24,9 @@
     "url": "git+https://github.com/jackboberg/github-calendar.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cov": "npm run unit -- --cov --coverage-report=lcov",
+    "lint": "standard -v",
+    "test": "npm run lint && npm run unit",
+    "unit": "tap test/*.js --100"
   }
 }
