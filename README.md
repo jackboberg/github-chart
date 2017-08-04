@@ -1,5 +1,7 @@
 # github-calendar
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jackboberg/github-calendar.svg)](https://greenkeeper.io/)
+
 > generate a styled github contribution calendar
 
 ## Table of Contents
